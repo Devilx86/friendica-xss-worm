@@ -12,7 +12,7 @@ fetch("http://localhost:8888/contact/follow?url=http%3A%2F%2Flocalhost%3A8888%2F
 req.open('GET', "/settings/profile/", true);
 req.onload  = function() {
     const regex = /<input\s+type="hidden"\s+name="form_security_token"\s+value="([^"]*)">/;
-	var matches = req.responseText.split(regex);
+    var matches = req.responseText.split(regex);
     csrf = matches[3];
     username = req.getResponseHeader('X-Account-Management-Status').split(";")[1].split('"')[1];
     console.log(csrf);
