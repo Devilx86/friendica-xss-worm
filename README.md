@@ -11,7 +11,7 @@ This repository contains an XSS worm for Friendica 2024.03. The worm exploits on
 - Visit `http://localhost:8888` and complete the installation.
 
 # Running the exploit
-- Register and create 2 user accounts on friendica
+- Register and create 2 user accounts on friendica.
 - Modify `payload.js` as commented in the file with the attacker username in the `followUser` variable.
 - `cd` to the same directory as `payload.js` and run a php webserver with the command `sudo php -S localhost:8886`.
 - Login to one of the user accounts on behalf of the attacker and browse to the `Edit profile page` > `Miscellaneous` section.
