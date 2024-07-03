@@ -1,5 +1,5 @@
 # Overview
-This repository contains an XSS worm for Friendica 2024.03. The worm exploits one of the three issues reported [here](https://github.com/friendica/friendica/issues/14220) (CVE pending) to perform the Samy is my hero attack.
+This repository contains an XSS worm for Friendica 2024.03. The worm exploits one of the three issues reported [here](https://github.com/friendica/friendica/issues/14220) ([CVE-2024-39094](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39094)) to perform the Samy is my hero attack.
 
 # Setup
 - Git clone the repository and change the directory to the repository folder using `cd friendica-xss-worm`.
